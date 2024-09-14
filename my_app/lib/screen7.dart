@@ -31,6 +31,21 @@ class _Screen7State extends State<Screen7> {
     'assets/pictures/arm (18).jpg',
     'assets/pictures/arm (19).png',
     'assets/pictures/arm (20).jpg',
+    'assets/pictures/armss (1).png',
+    'assets/pictures/armss (2).png',
+    'assets/pictures/armss (1).jpeg',
+    'assets/pictures/armss (1).jpg',
+    'assets/pictures/armss (2).jpg',
+    'assets/pictures/armss (3).jpg',
+    'assets/pictures/armss (4).jpg',
+    'assets/pictures/armss (5).jpg',
+    'assets/pictures/armss (6).jpg',
+    'assets/pictures/armss (7).jpg',
+    'assets/pictures/armss (8).jpg',
+    'assets/pictures/armss (9).jpg',
+    'assets/pictures/armss (10).jpg',
+    'assets/pictures/armss (11).jpg',
+    'assets/pictures/armss (12).jpg',
   ];
   @override
   Widget build(BuildContext context) {
@@ -51,7 +66,7 @@ class _Screen7State extends State<Screen7> {
           'Arms Designs',
           style: TextStyle(
             color: Colors.white,
-            fontSize: 20,
+            fontSize: 25,
           ),
         ),
         actions: [
@@ -86,11 +101,17 @@ class _Screen7State extends State<Screen7> {
                                 height: 100,
                               ),
                               Center(
-                                  child: Image.asset(
-                                arm[index],
-                                height: 550,
-                                width: 400,
-                                fit: BoxFit.fitWidth,
+                                  child: InteractiveViewer(
+                                clipBehavior: Clip.none,
+                                boundaryMargin: const EdgeInsets.all(8.0),
+                                minScale: 1.0,
+                                maxScale: 4.0,
+                                child: Image.asset(
+                                  arm[index],
+                                  height: 550,
+                                  width: 400,
+                                  fit: BoxFit.fitWidth,
+                                ),
                               )),
                               SizedBox(
                                 height: 40,

@@ -12,7 +12,32 @@ class Screen4 extends StatefulWidget {
 class _Screen4State extends State<Screen4> {
   List<String> bridal = [
     'assets/pictures/bridal (1) copy.jpg',
-    'assets/pictures/bridal (2).png',
+    'assets/pictures/bridalbb (1).jpeg',
+    'assets/pictures/bridalbb (2).jpeg',
+    'assets/pictures/bridalbb (1).png',
+    'assets/pictures/bridalbb (2).png',
+    'assets/pictures/bridalbb (1).jpg',
+    'assets/pictures/bridalbb (2).jpg',
+    'assets/pictures/bridalbb (3).jpg',
+    'assets/pictures/bridalbb (4).jpg',
+    'assets/pictures/bridalbb (5).jpg',
+    'assets/pictures/bridalbb (6).jpg',
+    'assets/pictures/bridalbb (7).jpg',
+    'assets/pictures/bridalbb (8).jpg',
+    'assets/pictures/bridalbb (9).jpg',
+    'assets/pictures/bridalbb (10).jpg',
+    'assets/pictures/bridalbb (11).jpg',
+    'assets/pictures/bridalbb (20).jpg',
+    'assets/pictures/bridalbb (13).jpg',
+    'assets/pictures/bridalbb (14).jpg',
+    'assets/pictures/bridalbb (15).jpg',
+    'assets/pictures/bridalbb (16).jpg',
+    'assets/pictures/bridalbb (17).jpg',
+    'assets/pictures/bridalbb (18).jpg',
+    'assets/pictures/bridalbb (19).jpg',
+    'assets/pictures/bridalbb (22).jpg',
+    'assets/pictures/bridalbb (21).jpg',
+    'assets/pictures/bridalbb (23).jpg',
     'assets/pictures/bridal (20).png',
     'assets/pictures/bridal (22).jpeg',
     'assets/pictures/bridal (3).jpg',
@@ -20,8 +45,6 @@ class _Screen4State extends State<Screen4> {
     'assets/pictures/bridal (5).jpg',
     'assets/pictures/bridal (6).jpg',
     'assets/pictures/bridal (7).jpg',
-    'assets/pictures/bridal (8).jpg',
-    'assets/pictures/bridal (9).jpg',
     'assets/pictures/bridal (10).jpg',
     'assets/pictures/bridal (11).jpg',
     'assets/pictures/bridal (12).jpg',
@@ -29,10 +52,7 @@ class _Screen4State extends State<Screen4> {
     'assets/pictures/bridal (14).jpg',
     'assets/pictures/bridal (15).jpg',
     'assets/pictures/bridal (16).jpg',
-    'assets/pictures/bridal (17).jpg',
-    'assets/pictures/bridal (18).jpg',
     'assets/pictures/bridal (19).jpg',
-    'assets/pictures/bridal (21).jpg',
   ];
   @override
   Widget build(BuildContext context) {
@@ -53,7 +73,7 @@ class _Screen4State extends State<Screen4> {
           'Bridal Mehndi Designs',
           style: TextStyle(
             color: Colors.white,
-            fontSize: 20,
+            fontSize: 25,
           ),
         ),
         actions: [
@@ -88,11 +108,17 @@ class _Screen4State extends State<Screen4> {
                                 height: 100,
                               ),
                               Center(
-                                  child: Image.asset(
-                                bridal[index],
-                                height: 550,
-                                width: 400,
-                                fit: BoxFit.fitWidth,
+                                  child: InteractiveViewer(
+                                clipBehavior: Clip.none,
+                                boundaryMargin: const EdgeInsets.all(8.0),
+                                minScale: 1.0,
+                                maxScale: 4.0,
+                                child: Image.asset(
+                                  bridal[index],
+                                  height: 550,
+                                  width: 400,
+                                  fit: BoxFit.fitWidth,
+                                ),
                               )),
                               SizedBox(
                                 height: 40,

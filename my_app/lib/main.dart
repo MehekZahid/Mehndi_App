@@ -43,7 +43,7 @@ class _Screen1State extends State<Screen1> {
         title: Text(
           'Mehndi Design 2024',
           style: TextStyle(
-            fontSize: 20,
+            fontSize: 25,
             fontWeight: FontWeight.bold,
             color: Colors.white,
           ),
@@ -81,7 +81,8 @@ class _Screen1State extends State<Screen1> {
                         color: Colors.white,
                       ),
                       child: CircleAvatar(
-                        backgroundImage: AssetImage('assets/pictures/back.jpg'),
+                        backgroundImage:
+                            AssetImage('assets/pictures/back (3).jpg'),
                       ),
                     ),
                   ),
@@ -90,7 +91,7 @@ class _Screen1State extends State<Screen1> {
                     style: TextStyle(
                         color: Colors.white,
                         fontWeight: FontWeight.bold,
-                        fontSize: 18),
+                        fontSize: 20),
                   )
                 ],
               ),
@@ -122,7 +123,7 @@ class _Screen1State extends State<Screen1> {
                     style: TextStyle(
                         color: Colors.white,
                         fontWeight: FontWeight.bold,
-                        fontSize: 18),
+                        fontSize: 20),
                   )
                 ],
               ),
@@ -162,7 +163,7 @@ class _Screen1State extends State<Screen1> {
                     style: TextStyle(
                         color: Colors.white,
                         fontWeight: FontWeight.bold,
-                        fontSize: 18),
+                        fontSize: 20),
                   )
                 ],
               ),
@@ -194,7 +195,7 @@ class _Screen1State extends State<Screen1> {
                     style: TextStyle(
                         color: Colors.white,
                         fontWeight: FontWeight.bold,
-                        fontSize: 18),
+                        fontSize: 20),
                   )
                 ],
               ),
@@ -225,7 +226,7 @@ class _Screen1State extends State<Screen1> {
                       ),
                       child: CircleAvatar(
                         backgroundImage:
-                            AssetImage('assets/pictures/finger (8).jpg'),
+                            AssetImage('assets/pictures/fingerss (8).jpg'),
                       ),
                     ),
                   ),
@@ -234,7 +235,7 @@ class _Screen1State extends State<Screen1> {
                     style: TextStyle(
                         color: Colors.white,
                         fontWeight: FontWeight.bold,
-                        fontSize: 18),
+                        fontSize: 20),
                   )
                 ],
               ),
@@ -266,7 +267,7 @@ class _Screen1State extends State<Screen1> {
                     style: TextStyle(
                         color: Colors.white,
                         fontWeight: FontWeight.bold,
-                        fontSize: 18),
+                        fontSize: 20),
                   )
                 ],
               ),
@@ -297,7 +298,7 @@ class _Screen1State extends State<Screen1> {
                       ),
                       child: CircleAvatar(
                         backgroundImage:
-                            AssetImage('assets/pictures/tikki (12).jpg'),
+                            AssetImage('assets/pictures/tikki (6).jpg'),
                       ),
                     ),
                   ),
@@ -306,7 +307,7 @@ class _Screen1State extends State<Screen1> {
                     style: TextStyle(
                         color: Colors.white,
                         fontWeight: FontWeight.bold,
-                        fontSize: 18),
+                        fontSize: 20),
                   )
                 ],
               ),
@@ -338,7 +339,7 @@ class _Screen1State extends State<Screen1> {
                     style: TextStyle(
                         color: Colors.white,
                         fontWeight: FontWeight.bold,
-                        fontSize: 18),
+                        fontSize: 20),
                   )
                 ],
               ),

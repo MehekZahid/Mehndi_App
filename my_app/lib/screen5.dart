@@ -11,8 +11,32 @@ class Screen5 extends StatefulWidget {
 
 class _Screen5State extends State<Screen5> {
   List<String> foot = [
-    'assets/pictures/foot (1).jpg',
-    'assets/pictures/foot (2).jpg',
+    'assets/pictures/footff (1).jpeg',
+    'assets/pictures/footff (2).jpeg',
+    'assets/pictures/footff (1).png',
+    'assets/pictures/footff (1).jpg',
+    'assets/pictures/footff (2).jpg',
+    'assets/pictures/footff (3).jpg',
+    'assets/pictures/footff (4).jpg',
+    'assets/pictures/footff (5).jpg',
+    'assets/pictures/footff (6).jpg',
+    'assets/pictures/footff (7).jpg',
+    'assets/pictures/footff (8).jpg',
+    'assets/pictures/footff (9).jpg',
+    'assets/pictures/footff (10).jpg',
+    'assets/pictures/footff (11).jpg',
+    'assets/pictures/footff (12).jpg',
+    'assets/pictures/footff (13).jpg',
+    'assets/pictures/footff (14).jpg',
+    'assets/pictures/footff (15).jpg',
+    'assets/pictures/footff (16).jpg',
+    'assets/pictures/footff (17).jpg',
+    'assets/pictures/footff (18).jpg',
+    'assets/pictures/footff (19).jpg',
+    'assets/pictures/footff (20).jpg',
+    'assets/pictures/footff (21).jpg',
+    'assets/pictures/footff (22).jpg',
+    'assets/pictures/footff (23).jpg',
     'assets/pictures/foot (3).jpg',
     'assets/pictures/foot (4).jpg',
     'assets/pictures/foot (5).jpg',
@@ -52,7 +76,7 @@ class _Screen5State extends State<Screen5> {
           'Foot Designs',
           style: TextStyle(
             color: Colors.white,
-            fontSize: 20,
+            fontSize: 25,
           ),
         ),
         actions: [
@@ -87,11 +111,17 @@ class _Screen5State extends State<Screen5> {
                                 height: 100,
                               ),
                               Center(
-                                  child: Image.asset(
-                                foot[index],
-                                height: 550,
-                                width: 400,
-                                fit: BoxFit.fitWidth,
+                                  child: InteractiveViewer(
+                                clipBehavior: Clip.none,
+                                boundaryMargin: const EdgeInsets.all(8.0),
+                                minScale: 1.0,
+                                maxScale: 4.0,
+                                child: Image.asset(
+                                  foot[index],
+                                  height: 550,
+                                  width: 400,
+                                  fit: BoxFit.fitWidth,
+                                ),
                               )),
                               SizedBox(
                                 height: 40,
